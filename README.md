@@ -93,19 +93,18 @@
 
 比赛采用经典的精确度（precision）、召回率（recall）和 F1 值作为评估指标。具体计算公式如下：
 
-![precision](https://latex.codecogs.com/png.download?Precision%3D%5Cfrac%7B%7C%5Ccap%28PredictionSet%2CReferenceSet%29%7C%7D%7B%7CPredictionSet%7C%7D)
 $$
 精确度=\frac{|\cap(预测集合,真实集合)|}{|预测集合|}
 $$
-![recall](https://latex.codecogs.com/png.download?Recall%3D%5Cfrac%7B%7C%5Ccap%28PredictionSet%2CReferenceSet%29%7C%7D%7B%7CReferenceSet%7C%7D)
+
+
 $$
 召回率=\frac{|\cap(预测集合,真实集合)|}{真实集合}
 $$
-![f1](https://latex.codecogs.com/png.download?F1%3D%5Cfrac%7B2%20%5Ctimes%20Precision%20%5Ctimes%20Recall%7D%7BPrecision%20+%20Recall%7D)
+
 $$
 F1 = \frac{2 \times 精确度 \times 召回率}{精确度+召回率}
 $$
-
 
 其中 PredictionSet 为算法预测的购买数据集合，ReferenceSet 为真实的答案购买数据集合。比赛以 F1 值作为最终的唯一评测标准。
 
@@ -114,5 +113,4 @@ $$
 ## 解题思路
 
 
-![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}](https://latex.codecogs.com/png.download?a+b%3Dc)
 
