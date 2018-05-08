@@ -1,7 +1,7 @@
 ---
 ---
 
-本仓库用于记录[天池新人实战赛之【离线赛】](https://tianchi.aliyun.com/getStart/information.htm?spm=5176.100067.5678.2.63d42b2bk6HcCO&raceId=231522)的思路和方法。
+本仓库用于记录 [天池新人实战赛之【离线赛】](https://tianchi.aliyun.com/getStart/information.htm?spm=5176.100067.5678.2.63d42b2bk6HcCO&raceId=231522) 的思路和方法。
 
 ---
 ---
@@ -109,8 +109,4 @@ $$
 其中 PredictionSet 为算法预测的购买数据集合，ReferenceSet 为真实的答案购买数据集合。比赛以 F1 值作为最终的唯一评测标准。
 
 ---
-
-## 解题思路
-
-
 
